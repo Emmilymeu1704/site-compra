@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Operadores Aritméticos</h1>
+
+        <script>
+            //Criar as variáveis
+            //texto = STRING
+            //numero inteiro = INT - 10
+            // Númeo real = FLOAT - 10.3
+            var usuario = prompt("Digite seu nome")
+            var carne = parseInt (prompt("Digite o preço da carne "))
+            var pao = parseInt (prompt("Digite o preço da pao "))
+            var fruta = parseInt (prompt("Digite o preço da fruta "))
+            var detergente = parseInt (prompt("Digite o preço do detergente "))
+            //Simbolo -  SOMA +
+            //Simbolo -  SUBTRAÇÃO - 
+            //Simbolo - MULTIPLICAÇÃO *
+            //Simbolo - DIVISÃO /
+           
+           var qtdecarne = parseInt(prompt("Digite a quantidade de carne"))
+           var qtdepao = parseInt (prompt("Digite a quantidade de pao"))
+           var qtdefruta = parseInt (prompt("Digite a quantidade de fruta"))
+           var qtdedetergente = parseInt (prompt("Digite a quantidade de detergente"))
+
+           var totalcarne = qtdecarne * carne
+           var totalpao = qtdepao * pao
+           var totalfruta = qtdefruta * fruta
+           var totaldetergente = qtdedetergente * detergente 
+
+           var totalcompra = totalcarne + totalpao + totalfruta + totaldetergente
+            //Imprimir - CONCATENAR
+            document.write("Bem vindo  "+ usuario)
+            document.write (" <br> ")
+            document.write("O total de carne é " + totalcarne )
+            document.write (" <br> ")
+            document.write("O total de pao é  "+ totalpao)
+            document.write (" <br> ")
+            document.write("O total de fruta é  " + totalfruta)
+            document.write (" <br> ")
+            document.write("O total de detergente é " + totaldetergente)
+            document.write (" <br> ")
+            document.write("A soma da sua compra foi  " + totalcompra)
+        </script>
+    </center>
+</body>
+</html>
